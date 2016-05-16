@@ -42,4 +42,3 @@ awk 'NR == 3' emp.data
 awk '{print $NF}' emp.data
 awk '{field = $NF} END {print field}' emp.data
 
-
